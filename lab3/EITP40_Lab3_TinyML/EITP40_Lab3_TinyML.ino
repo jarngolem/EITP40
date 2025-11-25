@@ -2,7 +2,7 @@
 #include <MicroTFLite.h>
 
 // Include network weights and test data
-#include "netd.h"      // network weights (seizure_model[])
+#include "net.h"      // network weights (seizure_model[])
 #include "testdata.h" // test data (with x_test_cut[40][1024])
 
 #define N_INPUTS 1024 // length of array for each sample
