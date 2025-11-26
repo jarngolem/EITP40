@@ -11,7 +11,7 @@
 // The Tensor Arena memory area is used by TensorFlow Lite to store input, 
 // output and intermediate tensors. You may need to adjust this size based 
 // on your model's requirements.
-constexpr int kTensorArenaSize = 35*1024;
+constexpr int kTensorArenaSize = 20*1024;
 alignas(16) uint8_t tensor_arena[kTensorArenaSize];
 
 void setup() {
